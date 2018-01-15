@@ -1,0 +1,163 @@
+body{
+  background: #F8BB27;
+  color: #fff;
+}
+nav{
+  padding: 1%;
+}
+#inicio{
+  margin-top: 4%;
+  background-image: url(../img/taxi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.jumbotronInicio{
+  background: #F8BB27;
+  margin-top: 11%;
+  margin-bottom: 10%;
+}
+.jumbotronInicio button{
+  color: #000;
+}
+.jumbotronInicio img{
+  margin: 1%;
+}
+#conduce{
+  background-image: url(../img/conduce.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.btn{
+  background: #F8BB27;
+}
+.btn:hover{
+  color: #F8BB27;
+  border: 2px solid #F8BB27;
+  background: #fff;
+}
+.textoConduce{
+  background-color: rgba(93, 109, 126, 0.5);
+  padding: 5%;
+}
+.tarifas{
+  margin: 5%;
+}
+.tarifas input{
+  background:#F8BB27;
+  border: 1px solid #fff;
+  margin-left: 3%;
+  width: 80%;
+  color: #fff;
+}
+.btn-tarifa{
+  color: #000;
+  background: #fff;
+}
+.btn-tarifa:hover{
+  border: 2px solid #fff;
+  background: #F8BB27;
+  color: #fff;
+}
+.img-tarifa{
+  border: 1px solid #fff;
+  padding: 1%;
+  margin: 3%;
+}
+footer{
+  background: #3E3F40;
+}
+footer a{
+  color: #fff;
+}
+footer a:hover{
+  color: #fff;
+}
+.fa{
+  padding: 3%;
+  margin-bottom: 3%;
+}
+.fa:hover{
+  color: #F8BB27;
+}
+
+/*MODAL*/
+
+.modal-content{
+  background: grey;
+}
+#registroTitulo{
+  background: #000;
+  color:#fff;
+}
+#registrate{
+  color: #000;
+}
+#registrate input,select{
+  width: 100%;
+  margin: 2% 0;
+}
+#btn-enviar{
+  background: #74BEDB;
+  color: #FFFFFF;
+}
+#btn-enviar:hover{
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+/*MOVIL*/
+@media (min-width:0px) and (max-width:991px) {
+  .jumbotronInicio{
+    margin-top: 40%;
+    margin-bottom: 39%;
+  }
+  #inicioDesktop{
+    display: none;
+  }
+  #appDesktop{
+    display: none;
+  }
+  .borderApp{
+    border: 1px solid #fff;
+    margin: 7%;
+    padding: 3%;
+  }
+  .textoConduce{
+    margin: 30% 3%;
+  }
+  #footerDesktop{
+    display: none;
+  }
+}
+/*DESKTOP*/
+@media (min-width:992px) {
+  .jumbotronInicio{
+    margin-top: 9%;
+    margin-bottom: 8%;
+  }
+  #inicioMovil{
+    display:none;
+  }
+  #appMovil{
+    display: none;
+  }
+  .borderApp{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff ;
+    border-right: 1px solid #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2% 0;
+  }
+  #appDesktop h3,p{
+    margin: 3% 10%;
+  }
+  .textoConduce{
+    margin-bottom: 20%;
+  }
+  #footerMovil{
+    display: none;
+  }
+}
